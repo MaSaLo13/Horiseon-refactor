@@ -11,24 +11,24 @@ body {
 }
 
 /* Affects top of page where it says Horiseon*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 /* Affects font size in header "Horiseon" */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 /* Turns the "seo" in Horiseon gray*/
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* Affects the format of clickable "links"  */
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,12 +37,12 @@ body {
 }
 
 /* Makes anything under the ul not have a list style*/
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
 /* makes the words be displayed in the li be in a line with space in between*/
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -141,7 +141,7 @@ p {
 }
 
 /* affects the fomatting of footer */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -149,6 +149,6 @@ p {
 }
 
 /* affects font size of h2 under footer */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
