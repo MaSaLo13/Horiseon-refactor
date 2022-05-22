@@ -1,0 +1,154 @@
+/* Affects whole page */  
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Backround color for page*/
+body {
+    background-color: #d9dcd6;
+}
+
+/* Affects top of page where it says Horiseon*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Affects font size in header "Horiseon" */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Turns the "seo" in Horiseon gray*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Affects the format of clickable "links"  */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Makes anything under the ul not have a list style*/
+.header div ul {
+    list-style-type: none;
+}
+
+/* makes the words be displayed in the li be in a line with space in between*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* The words within a become white*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* helps format and display the image of people on the webpage */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* helps format anything under content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Affects how the div under content is formatted*/
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Affects the height of the images under content*/
+.content img {
+    max-height: 200px;
+}
+
+/* affects the format of h2 such as, Search Enging Optimization*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* makes the images under content be on the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* makes the images under content be on the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* affects font size for anything with p*/
+p {
+    font-size: 16px;
+}
+
+/* affects the formatting for anything under benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    
+}
+
+/* affects the margin and color of the div under benefits */
+.benefits div {
+    margin-bottom: 32px;
+    color:#ffffff
+}
+
+/* affects the formatting of h3, for example, Lead Generation */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* affects images under benefits */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* affects the fomatting of footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* affects font size of h2 under footer */
+.footer h2 {
+    font-size: 20px;
+}
