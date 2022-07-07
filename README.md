@@ -5,11 +5,9 @@
 * For this homework we were supposed to fix the HTML in order for it to have semantic elements.
 * While in the CSS the selectors and properites were edited and organized to follow semantic elements within the HTML
 
-![Horiseon webpage.] (Horiseon-refactor/assets/images/SS1.png)
-(/assets/images.SS2.png)
-(/assets/images.SS3.png)
+![Screenshot of Horiseon-refactor](./assets/images/Horiseon-refactor.png)
 
-Repo Link:
+GitHub:
 
 https://github.com/MaSaLo13/Horiseon-refactor
 
