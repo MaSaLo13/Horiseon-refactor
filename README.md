@@ -2,8 +2,8 @@
 
 ## Description
 
-* For this homework we were supposed to fix the HTML in order for it to have semantic elements.
-* While in the CSS the selectors and properites were edited and organized to follow semantic elements within the HTML
+* Edited the HTML so that it contains semantic elements.
+* In the CSS the selectors and properites were edited and organized to follow semantic elements within the HTML.
 
 ![Screenshot of Horiseon-refactor](./assets/images/Horiseon-refactor.png)
 
